@@ -6,36 +6,55 @@
   background: url("../bg.jpg");
   min-height: 100vh;
   background-size: 100vw 100vh;
-  background-repeat: no-repeat;
+  background-repeat:repeat;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 #scoreBox{
   position: absolute;
-  top: 9px;
+  top: 5px;
   right: 200px;
-  font-size: 39px;
+  font-size: 50px;
   font-weight: bold;
+  color:white;
 }
 #board{
-  background: linear-gradient(rgb(170,236,170), rgb(236,236,167));
-  width : 90vmin;
-  height : 92vmin;
-  border: 2px solid black;
+  background: linear-gradient(rgb(7, 45, 7), rgb(196, 196, 174));
+  width : 200vh;
+  height : 180vmin;
+  border: 1px solid black;
+  border-radius: 10px;
   display: grid;
+  
   grid-template-rows: repeat(18,1fr);
   grid-template-columns: repeat(18,1fr);
+  
+  
+  justify-content: center;
+  
+  width: 1000px;
+  
+    height:515px;
+    margin-top: 80px;
+    margin-bottom:auto;
+
+    
+   
+   
+   
+
+
 }
 .head{
  background: linear-gradient(rgb(240,124,124),rgb(228, 228, 129));
- border: 2px solid purple;
+ border: 2px solid rgb(205, 22, 22);
  transform: scale(1.04);
  border-radius: 9px;
 }
 .snake{
-  background-color: purple;
-  border: .25vmin solid white;
+  background-color: rgb(43, 0, 128);
+  border: .30vmin solid white;
   border-radius: 12 px;
 }
 .food{
