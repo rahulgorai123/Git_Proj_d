@@ -34,6 +34,7 @@
   justify-content: center;
   
   width: 1000px;
+ 
   
     height:515px;
     margin-top: 80px;
@@ -53,8 +54,8 @@
  border-radius: 9px;
 }
 .snake{
-  background-color: rgb(43, 0, 128);
-  border: .30vmin solid white;
+  background-color: rgb(242, 165, 120);
+  border: .30vmin solid rgb(83, 75, 75);
   border-radius: 12 px;
 }
 .food{
